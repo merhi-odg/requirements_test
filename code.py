@@ -1,12 +1,18 @@
 import aif360
+import statsmodels
 
 # modelop.init
 def begin():
     
-    global version
-    version = aif360.__version__
+    global aif360_version
+    global statsmodels_version
+
+    aif360_version = aif360.__version__
+    statsmodels_version = statsmodels.__version__
     
-    print("version: ", version, flush=True)
+    print("aif360_version: ", vaif360ersion, flush=True)
+    print("statsmodels_version: ", statsmodels_version, flush=True)
+
     pass
 
 # modelop.score
