@@ -1,4 +1,4 @@
-import aif360.metrics
+import aif360
 
 # modelop.init
 def begin():
