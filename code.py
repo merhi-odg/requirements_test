@@ -1,12 +1,12 @@
-import aif360
+import aif360.metrics
 
 # modelop.init
 def begin():
     
-    global version
-    version = aif360.__version__
+    #global version
+    #version = aif360.__version__
     
-    print("version: ", version, flush=True)
+    #print("version: ", version, flush=True)
     pass
 
 # modelop.score
