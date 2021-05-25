@@ -10,7 +10,7 @@ def begin():
     aif360_version = aif360.__version__
     statsmodels_version = statsmodels.__version__
     
-    print("aif360_version: ", vaif360ersion, flush=True)
+    print("aif360_version: ", aif360_version, flush=True)
     print("statsmodels_version: ", statsmodels_version, flush=True)
 
     pass
